@@ -1,0 +1,34 @@
+{
+  "name": "emitting-primitive",
+  "version": "0.0.0",
+  "description": "A primitive value store that makes it easy to keep dependencies in sync",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.21"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "babel -d lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/download13/emitting-primitive.git"
+  },
+  "keywords": [
+    "emitter",
+    "variable",
+    "boolean",
+    "number",
+    "string"
+  ],
+  "author": "Erin Dachtler <download333@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/download13/emitting-primitive/issues"
+  },
+  "homepage": "https://github.com/download13/emitting-primitive#readme"
+}
